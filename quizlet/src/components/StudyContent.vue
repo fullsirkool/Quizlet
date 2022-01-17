@@ -53,11 +53,11 @@ export default {};
       line-height: 48px;
       color: #22211eff;
       text-align: center;
-
       background: #ffffffff;
       border-radius: 8px;
-      box-shadow: 0px 7px 21px #000000, 0px 0px 2px #000000;
+      box-shadow: 0px 7px 21px #c3c2beff, 0px 0px 2px #c3c2beff;
       padding: 70px 70px 190px 70px;
+      
     }
   }
   .paging {

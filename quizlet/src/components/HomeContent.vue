@@ -104,7 +104,7 @@ export default {
     position: absolute;
     top: 99px;
     left: 88px;
-    font-family: Josefin Sans;
+    font-family: "Josefin_Sans";
     font-size: 32px;
     line-height: 48px;
     color: #22211eff;

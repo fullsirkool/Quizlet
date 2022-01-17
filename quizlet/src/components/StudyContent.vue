@@ -57,7 +57,6 @@ export default {};
       border-radius: 8px;
       box-shadow: 0px 7px 21px #c3c2beff, 0px 0px 2px #c3c2beff;
       padding: 70px 70px 190px 70px;
-      
     }
   }
   .paging {

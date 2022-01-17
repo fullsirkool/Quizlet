@@ -3,12 +3,21 @@
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
+@font-face {
+  font-family: "Prompt";
+  src: local("Prompt"), url(./fonts/Prompt/Prompt-Regular.ttf);
+}
+@font-face {
+  font-family: "Josefin_Sans";
+  src: local("Josefin_Sans"),
+    url(./fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
 #app {
-  font-family: Prompt !important;
+  font-family: "Prompt";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;

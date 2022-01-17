@@ -92,9 +92,13 @@ export default {};
   font-family: Prompt;
   margin-left: 223px;
   .quiz-name {
+    width: 190px;
+    height: 48px;
+    font-family: Prompt;
     font-size: 32px;
     line-height: 48px;
     color: #403f3aff;
+    font-weight: bold;
   }
   .title {
     text-transform: uppercase;

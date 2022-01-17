@@ -4,9 +4,16 @@
       <div class="left">
         <div class="logo"></div>
         <div class="header-menu">
-          <div class="header-menu-item selected">Home</div>
-          <div class="header-menu-item">Explanations</div>
+          <div class="header-menu-item selected">
+            <div class="indicator"></div>
+            Home
+          </div>
           <div class="header-menu-item">
+            <div class="indicator"></div>
+            Explanations
+          </div>
+          <div class="header-menu-item">
+            <div class="indicator"></div>
             Your Library
             <svg class="arrow-icon"></svg>
           </div>
@@ -14,8 +21,19 @@
       </div>
       <div class="right">
         <div class="textbox">
-          <svg class="left"></svg>
-          <input placeholder="Search" type="text" />
+          <svg
+            class="w-6 h-6 left"
+            fill="#686583"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+            />
+          </svg>
+          <input placeholder="Search..." type="text" />
         </div>
         <div class="icon-noti"></div>
         <div class="icon-setting"></div>
@@ -42,7 +60,7 @@ export default {};
     height: 52px;
     background: #ffffffff;
     border-radius: 0px;
-    box-shadow: 0px 0px 7px #333a47, 0px 0px 2px #333a47;
+    box-shadow: 0px 0px 7px #c3c2beff, 0px 0px 2px #c3c2beff;
   }
   .right {
     float: right;
@@ -55,7 +73,7 @@ export default {};
       opacity: 1;
     }
     .textbox input {
-      width: 640px;
+      width: 600px;
       height: 36px;
       padding-left: 34px;
       padding-right: 12px;
@@ -67,7 +85,7 @@ export default {};
       outline: none;
     }
     .textbox svg.left {
-      background-image: url("~@/assets/left-icon.svg");
+      // background-image: url("~@/assets/left-icon.svg");
       position: absolute;
       top: 12px;
       right: 12px;
@@ -107,6 +125,7 @@ export default {};
       height: 24px;
       fill: #403f3a;
       opacity: 1;
+      cursor: pointer;
     }
     .icon-setting {
       background-image: url(~@/assets/settings.svg);
@@ -117,6 +136,7 @@ export default {};
       height: 24px;
       fill: #403f3a;
       opacity: 1;
+      cursor: pointer;
     }
     .avatar {
       position: absolute;
@@ -128,6 +148,7 @@ export default {};
       opacity: 1;
       overflow: hidden;
       border-radius: 18px;
+      cursor: pointer;
     }
     .avatar img {
       // background-image: url(~@/assets/avatar.jpg);

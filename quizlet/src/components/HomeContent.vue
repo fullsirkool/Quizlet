@@ -117,7 +117,7 @@ export default {
       display: inline-block;
       vertical-align: top;
       .cate-name {
-        font-weight: bold;
+        // font-weight: bold;
         font-size: 16px;
         line-height: 26px;
         color: #403f3aff;

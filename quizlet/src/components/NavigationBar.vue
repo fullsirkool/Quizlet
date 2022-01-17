@@ -89,12 +89,12 @@ export default {};
 <style lang="scss" scoped>
 #navigation-bar {
   margin-top: 113px;
-  font-family: Prompt;
+  font-family: Promt;
   margin-left: 223px;
   .quiz-name {
     width: 190px;
     height: 48px;
-    font-family: Prompt;
+    font-family: "Prompt";
     font-size: 32px;
     line-height: 48px;
     color: #403f3aff;
@@ -125,7 +125,7 @@ export default {};
   }
   /* Sidebar menu 31 - Item */
   .sidebar-menu .sidebar-menu-item {
-    padding: 16px 0 0 0;
+    padding: 12px 0 12px 0;
     display: flex;
     align-items: center;
     justify-content: left;

@@ -53,10 +53,10 @@ export default {};
 <style lang="scss" scoped>
 #header {
   .container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1980px;
+    // position: absolute;
+    // top: 0px;
+    // left: 0px;
+    // width: 1980px;
     height: 52px;
     background: #ffffffff;
     border-radius: 0px;

@@ -60,7 +60,7 @@ export default {};
     height: 52px;
     background: #ffffffff;
     border-radius: 0px;
-    box-shadow: 0px 0px 7px #c3c2beff, 0px 0px 2px #c3c2beff;
+    box-shadow: 0 0 7px rgb(51 58 71 / 15%), 0 0 2px rgb(51 58 71 / 16%);;
   }
   .right {
     float: right;

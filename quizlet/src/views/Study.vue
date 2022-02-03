@@ -1,10 +1,9 @@
 <template>
   <div id="study">
     <Header />
-    <navigation-bar />
     <div class="right">
-    <study-content />
-
+      <navigation-bar />
+      <study-content />
     </div>
   </div>
 </template>
@@ -23,10 +22,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#study{
+#study {
+  .right {
     display: flex;
-    .right {
-        width: 100%;
-    }
+    width: 100%;
+  }
 }
 </style>
